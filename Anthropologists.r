@@ -1,9 +1,7 @@
 renv::init()
 
 ### Getting Started
-install.packages("devtools")
 library(devtools)
-install_github("zalmquist/networkdata")
 library(networkdata)
 library(statnet)
 load("bott.RData")
@@ -61,3 +59,5 @@ mcmc.diagnostics(bottmodel.04)
 ### Edgewise shared partnerships, or triangles revisited
 bottmodel.07 <- ergm(bott[[4]]~edges+nodeicov('age.month')+edgecov(bott[[1]])+edgecov(agediff)+gwesp(1,fixed=FALSE))
 summary(bottmodel.07)
+
+renv::restore()

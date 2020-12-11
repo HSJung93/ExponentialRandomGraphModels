@@ -1,0 +1,165 @@
+
+
+-----------------------------------
+New Analysis started.
+Date and time: 11/12/2020 10:42:15
+New results follow.
+-----------------------------------
+
+RSienaTest version 1.2-27 (14 Sep 20) R-forge revision: 351 
+
+
+@1
+Estimation by stochastic approximation algorithm.
+=================================================
+
+Random initialization of random number stream.
+Current random number seed is 111449.
+Effects object used: frndeff 
+Model Type:
+ Standard actor-oriented model
+Behavioral Model Type:
+ Standard behavior actor-oriented model ('restrict')
+Estimation method: unconditional moment estimation.
+
+Time duration for simulations in each period is 1.0.
+Standard errors are estimated with the likelihood ratio method.
+Dolby method (regression on scores) is used.
+Initial value of gain parameter is  0.3464102.
+Reduction factor for gain parameter is  0.5000000.
+Number of subphases in Phase 2 is 4.
+
+Initial parameter values are 
+  1. rate:  constant fr4wav rate (period 1)                 2.0041
+  2. rate:  constant fr4wav rate (period 2)                 2.0041
+  3. rate:  constant fr4wav rate (period 3)                 2.0041
+  4. eval:  outdegree (density)                            -0.8075
+  5. eval:  reciprocity                                     0.0000
+  6. eval:  transitive triplets                             0.0000
+  7. eval:  same gender                                     0.0000
+  8. eval:  smokebeh alter                                  0.0000
+  9. eval:  smokebeh ego                                    0.0000
+ 10. eval:  same smokebeh                                   0.0000
+ 11. rate:  rate smokebeh (period 1)                        0.2081
+ 12. rate:  rate smokebeh (period 2)                        0.2081
+ 13. rate:  rate smokebeh (period 3)                        0.2081
+ 14. eval:  smokebeh linear shape                           0.5617
+ 15. eval:  smokebeh average similarity                     0.0000
+ 16. eval:  smokebeh total similarity                       0.0000
+
+
+Observed values of target statistics are
+  1. Amount of network change in period 1                                36.0000
+  2. Amount of network change in period 2                                36.0000
+  3. Amount of network change in period 3                                36.0000
+  4. Number of ties                                                     537.0000
+  5. Number of reciprocated ties                                        294.0000
+  6. Number of transitive triplets                                      898.0000
+  7. Same values on gender                                              513.0000
+  8. Sum indegrees x smokebeh                                           -12.6486
+  9. Sum outdegrees x smokebeh                                          -31.6486
+ 10. Same values on smokebeh                                            366.0000
+ 11. Amount of behavioral change in period 1 on smokebeh                  4.0000
+ 12. Amount of behavioral change in period 2 on smokebeh                  4.0000
+ 13. Amount of behavioral change in period 3 on smokebeh                  4.0000
+ 14. smokebeh centered sum                                                3.0000
+ 15. smokebeh average similarity                                          6.2841
+ 16. smokebeh total similarity                                           27.5526
+
+ 16 parameters, 16 statistics
+
+Estimation of derivatives by the LR method (type 1).
+
+
+@2
+End of stochastic approximation algorithm, phase 3.
+---------------------------------------------------
+
+Total of 2340 iterations.
+Parameter estimates based on 1338 iterations,
+convergence diagnostics, covariance and derivative matrices based on 1002 iterations.
+
+Information for convergence diagnosis.
+Averages, standard deviations, and t-ratios for deviations from targets:
+  1.  -0.0639   5.9266  -0.0108 
+  2.   0.5190   5.8879   0.0881 
+  3.   0.3433   5.8029   0.0592 
+  4.  -0.0978  10.4232  -0.0094 
+  5.   0.1856  11.3923   0.0163 
+  6.  -0.5928  48.6522  -0.0122 
+  7.  -0.2046   9.6736  -0.0211 
+  8.  -0.0727   4.4531  -0.0163 
+  9.  -0.6136   4.4574  -0.1377 
+ 10.  -0.0359   8.4209  -0.0043 
+ 11.   0.0709   1.9432   0.0365 
+ 12.   0.2425   2.0357   0.1191 
+ 13.  -0.0050   1.8449  -0.0027 
+ 14.   0.4481   4.1413   0.1082 
+ 15.  -1.0686   3.4124  -0.3132 
+ 16.  -2.4222  16.8014  -0.1442 
+
+Good convergence is indicated by the t-ratios being close to zero.
+
+Overall maximum convergence ratio =  1.4606 .
+One or more of the t-statistics are rather large.
+
+
+
+@2
+Estimation Results.
+-------------------
+
+Regular end of estimation algorithm.
+Total of 2340 iteration steps.
+
+
+@3
+Estimates and standard errors
+                             
+Network Dynamics
+ 1. rate:  constant fr4wav rate (period 1)                         1.1645  (   1.2087)
+ 2. rate:  constant fr4wav rate (period 2)                         1.1523  (   1.8583)
+ 3. rate:  constant fr4wav rate (period 3)                         1.1558  (   0.4028)
+ 4. eval:  outdegree (density)                                    -3.0774  (   4.0255)
+ 5. eval:  reciprocity                                             0.8016  (   6.7570)
+ 6. eval:  transitive triplets                                     0.0878  (   1.7646)
+ 7. eval:  same gender                                             1.2182  (   0.5037)
+ 8. eval:  smokebeh alter                                          0.6946  (   6.3622)
+ 9. eval:  smokebeh ego                                           -0.0785  (   6.0798)
+10. eval:  same smokebeh                                           1.1649  (  10.4978)
+Behavior Dynamics
+
+11. rate:  rate smokebeh (period 1)                                0.2916  (   4.0695)
+12. rate:  rate smokebeh (period 2)                                0.3239  (   1.5827)
+13. rate:  rate smokebeh (period 3)                                0.3184  (   0.9042)
+14. eval:  smokebeh linear shape                                  18.2886  (10698.7012)
+15. eval:  smokebeh average similarity                           160.8052  (246348.9259)
+16. eval:  smokebeh total similarity                             -20.1207  (33697.3498)
+
+
+@3
+Covariance matrices
+                   
+Covariance matrix of estimates (correlations below diagonal):
+ 1.461000e+00 -2.195000e+00  4.170000e-01 -4.740000e+00  8.038000e+00 -2.097000e+00  4.410000e-01  7.543000e+00  7.219000e+00  1.246100e+01  4.840000e+00  1.873000e+00 -1.053000e+00  1.267273e+04  2.924907e+05 -4.001290e+04
+-9.770000e-01  3.453000e+00 -6.430000e-01  7.407000e+00 -1.247300e+01  3.256000e+00 -7.080000e-01 -1.173900e+01 -1.122300e+01 -1.938600e+01 -7.513000e+00 -2.888000e+00  1.633000e+00 -1.976872e+04 -4.553755e+05  6.228964e+04
+ 8.560000e-01 -8.590000e-01  1.620000e-01 -1.386000e+00  2.347000e+00 -6.120000e-01  1.340000e-01  2.199000e+00  2.105000e+00  3.631000e+00  1.414000e+00  5.450000e-01 -3.050000e-01  3.707249e+03  8.549977e+04 -1.169595e+04
+-9.740000e-01  9.900000e-01 -8.550000e-01  1.620400e+01 -2.701800e+01  7.046000e+00 -1.597000e+00 -2.549800e+01 -2.432300e+01 -4.210400e+01 -1.627000e+01 -6.249000e+00  3.543000e+00 -4.283972e+04 -9.864291e+05  1.349285e+05
+ 9.840000e-01 -9.930000e-01  8.620000e-01 -9.930000e-01  4.565700e+01 -1.190500e+01  2.550000e+00  4.287300e+01  4.099900e+01  7.081200e+01  2.746300e+01  1.059400e+01 -5.982000e+00  7.212524e+04  1.662650e+06 -2.274380e+05
+-9.830000e-01  9.930000e-01 -8.610000e-01  9.920000e-01 -9.980000e-01  3.114000e+00 -6.780000e-01 -1.119000e+01 -1.070500e+01 -1.848900e+01 -7.170000e+00 -2.766000e+00  1.561000e+00 -1.881700e+04 -4.338980e+05  5.935486e+04
+ 7.250000e-01 -7.560000e-01  6.600000e-01 -7.870000e-01  7.490000e-01 -7.630000e-01  2.540000e-01  2.412000e+00  2.306000e+00  3.991000e+00  1.540000e+00  5.860000e-01 -3.310000e-01  4.104823e+03  9.409383e+04 -1.286769e+04
+ 9.810000e-01 -9.930000e-01  8.580000e-01 -9.960000e-01  9.970000e-01 -9.970000e-01  7.530000e-01  4.047700e+01  3.857200e+01  6.671500e+01  2.581900e+01  9.936000e+00 -5.627000e+00  6.785984e+04  1.563834e+06 -2.139177e+05
+ 9.820000e-01 -9.930000e-01  8.600000e-01 -9.940000e-01  9.980000e-01 -9.980000e-01  7.530000e-01  9.970000e-01  3.696400e+01  6.372800e+01  2.469500e+01  9.509000e+00 -5.386000e+00  6.489462e+04  1.495645e+06 -2.045911e+05
+ 9.820000e-01 -9.940000e-01  8.590000e-01 -9.960000e-01  9.980000e-01 -9.980000e-01  7.550000e-01  9.990000e-01  9.990000e-01  1.102040e+02  4.265300e+01  1.643000e+01 -9.294000e+00  1.120374e+05  2.582448e+06 -3.532579e+05
+ 9.840000e-01 -9.940000e-01  8.630000e-01 -9.930000e-01  9.990000e-01 -9.980000e-01  7.510000e-01  9.970000e-01  9.980000e-01  9.980000e-01  1.656000e+01  6.378000e+00 -3.603000e+00  4.342051e+04  1.001100e+06 -1.369441e+05
+ 9.790000e-01 -9.820000e-01  8.550000e-01 -9.810000e-01  9.910000e-01 -9.900000e-01  7.350000e-01  9.870000e-01  9.880000e-01  9.890000e-01  9.900000e-01  2.505000e+00 -1.386000e+00  1.667281e+04  3.850812e+05 -5.268100e+04
+-9.640000e-01  9.720000e-01 -8.370000e-01  9.730000e-01 -9.790000e-01  9.790000e-01 -7.260000e-01 -9.780000e-01 -9.800000e-01 -9.790000e-01 -9.790000e-01 -9.680000e-01  8.180000e-01 -9.455544e+03 -2.180386e+05  2.982677e+04
+ 9.800000e-01 -9.940000e-01  8.600000e-01 -9.950000e-01  9.980000e-01 -9.970000e-01  7.620000e-01  9.970000e-01  9.980000e-01  9.980000e-01  9.970000e-01  9.850000e-01 -9.770000e-01  1.144622e+08  2.634780e+09 -3.603923e+08
+ 9.820000e-01 -9.950000e-01  8.620000e-01 -9.950000e-01  9.990000e-01 -9.980000e-01  7.580000e-01  9.980000e-01  9.990000e-01  9.990000e-01  9.990000e-01  9.880000e-01 -9.790000e-01  1.000000e+00  6.068779e+10 -8.301299e+09
+-9.820000e-01  9.950000e-01 -8.620000e-01  9.950000e-01 -9.990000e-01  9.980000e-01 -7.580000e-01 -9.980000e-01 -9.990000e-01 -9.990000e-01 -9.990000e-01 -9.880000e-01  9.790000e-01 -1.000000e+00 -1.000000e+00  1.135511e+09
+
+Derivative matrix of expected statistics X by parameters and
+covariance/correlation matrix of X can be found using
+summary(ans) within R, or by using the 'verbose' option in Siena07.
+ 
+Total computation time 33.59 seconds.
