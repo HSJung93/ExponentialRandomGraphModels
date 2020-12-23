@@ -4,7 +4,6 @@
 #   http://www.gmw.rug.nl/~steglich/workshops/Groningen2015.htm
 
 renv::init()
-renv::snapshot()
 ##############################################
 # Contents:
 #     (1) preparatory steps
@@ -25,7 +24,7 @@ install.packages("RSiena", repos="http://R-Forge.R-project.org")
 install.packages("RSienaTest", repos="http://R-Forge.R-project.org")
 # if difficulty loading RSiena from R-Forge, use the older CRAN version
 install.packages("RSiena")
-
+install.packages("rgl")
 # load RSiena commands and sna to the R namespace:
 library(RSiena)
 library(sna)
@@ -35,7 +34,7 @@ library(rgl)  # for interactive 3d plot (optional)
 packageVersion("RSiena")
 
 # set working directory to where you want to store output files:
-setwd('/Users/davidschaefer/AeroFS/ASU/Teaching/Duke/lab/')
+# setwd('/Users/davidschaefer/AeroFS/ASU/Teaching/Duke/lab/')
 
 
 # ======================
@@ -529,4 +528,5 @@ EgoAlterTable <- function(i, data, sims, wave, groupName, varName, levls=1){
 }
 
 
-            
+
+renv::snapshot()
